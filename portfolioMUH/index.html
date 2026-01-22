@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfoliomuh</title>
+    <link rel="stylesheet" href="/src/css/styless.css" />
+    
+  </head>
+  <body>
+    <header class="header">
+    <div class="container header-container">
+<a href="/" class="logo-link">
+    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='77'%20height='22'%20fill='none'%3e%3cpath%20fill='url(%23a)'%20d='M2.1%2021.27c-.58%200-1.08-.21-1.5-.63a2.1%202.1%200%200%201-.6-1.5V2.97c0-1%20.33-1.74.99-2.22C1.65.25%202.66%200%204.02%200v17.79h8.1c.94%200%201.65.3%202.13.9.48.58.72%201.44.72%202.58H2.1Zm22.695.27c-1.64%200-3.14-.32-4.5-.96-1.36-.66-2.44-1.55-3.24-2.67-.78-1.12-1.17-2.34-1.17-3.66V7.26c0-1.32.39-2.53%201.17-3.63.8-1.12%201.88-2%203.24-2.64%201.36-.66%202.86-.99%204.5-.99%201.64%200%203.14.33%204.5.99%201.38.64%202.46%201.52%203.24%202.64.8%201.1%201.2%202.31%201.2%203.63v6.99c0%201.32-.4%202.54-1.2%203.66-.78%201.12-1.86%202.01-3.24%202.67-1.36.64-2.86.96-4.5.96Zm0-3.51c1.5%200%202.7-.35%203.6-1.05.9-.72%201.35-1.65%201.35-2.79V7.35c0-1.16-.45-2.09-1.35-2.79-.9-.72-2.1-1.08-3.6-1.08-1.48%200-2.67.36-3.57%201.08-.9.7-1.35%201.63-1.35%202.79v6.84c0%201.14.45%202.07%201.35%202.79.9.7%202.09%201.05%203.57%201.05Zm21.387%203.51c-1.78%200-3.37-.34-4.77-1.02-1.38-.68-2.46-1.63-3.24-2.85-.78-1.22-1.17-2.61-1.17-4.17V7.98c0-1.56.38-2.94%201.14-4.14.78-1.22%201.85-2.16%203.21-2.82C42.712.34%2044.272%200%2046.032%200c1.76%200%203.32.27%204.68.81%201.38.52%202.45%201.25%203.21%202.19.76.94%201.14%202.02%201.14%203.24%200%20.74-.25%201.32-.75%201.74-.48.42-1.13.63-1.95.63-.4%200-.84-.06-1.32-.18.04-.48.06-.95.06-1.41%200-1.06-.47-1.92-1.41-2.58-.94-.66-2.16-.99-3.66-.99-1.48%200-2.69.42-3.63%201.26-.92.84-1.38%201.93-1.38%203.27v5.52c0%201.34.48%202.44%201.44%203.3.96.86%202.2%201.29%203.72%201.29%201.48%200%202.68-.34%203.6-1.02.94-.7%201.41-1.6%201.41-2.7v-.93h-2.58c-.76%200-1.38-.29-1.86-.87-.48-.6-.72-1.37-.72-2.31h7.29c.56%200%201.01.17%201.35.51.34.34.51.79.51%201.35v2.34c0%201.38-.38%202.61-1.14%203.69-.76%201.06-1.83%201.89-3.21%202.49-1.36.6-2.91.9-4.65.9Zm21.136%200c-1.64%200-3.14-.32-4.5-.96-1.36-.66-2.44-1.55-3.24-2.67-.78-1.12-1.17-2.34-1.17-3.66V7.26c0-1.32.39-2.53%201.17-3.63.8-1.12%201.88-2%203.24-2.64%201.36-.66%202.86-.99%204.5-.99%201.64%200%203.14.33%204.5.99%201.38.64%202.46%201.52%203.24%202.64.8%201.1%201.2%202.31%201.2%203.63v6.99c0%201.32-.4%202.54-1.2%203.66-.78%201.12-1.86%202.01-3.24%202.67-1.36.64-2.86.96-4.5.96Zm0-3.51c1.5%200%202.7-.35%203.6-1.05.9-.72%201.35-1.65%201.35-2.79V7.35c0-1.16-.45-2.09-1.35-2.79-.9-.72-2.1-1.08-3.6-1.08-1.48%200-2.67.36-3.57%201.08-.9.7-1.35%201.63-1.35%202.79v6.84c0%201.14.45%202.07%201.35%202.79.9.7%202.09%201.05%203.57%201.05Z'/%3e%3cdefs%3e%3clinearGradient%20id='a'%20x1='-1.77'%20x2='78.23'%20y1='9.141'%20y2='9.141'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%23FA6E00'/%3e%3cstop%20offset='1'%20stop-color='%23E60026'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="Logo">
+</a>
+        <ul class="header-list">
+            <li class="header-list-items"><a href="#home" class="header-list-item-link">Home</a></li>
+            <li class="header-list-items"><a href="#services" class="header-list-item-link">Services</a></li>
+            <li class="header-list-items"><a href="#about-me" class="header-list-item-link">About me</a></li>
+            <li class="header-list-items"><a href="#portfolio" class="header-list-item-link">Portfolio</a></li>
+            <li class="header-list-items"><a href="#contact-me" class="header-list-item-link">Contact me</a></li>
+        </ul>
+        <nav class="header-button">
+            <button type="button" class="header-btn">Hire me</button>
+        </nav>
+    </div>
+
+  </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-description">
+            <p class="hero-info">Hi I am</p>
+            <h2 class="hero-title-name">Mahmood Fazile</h2>
+            <h1 class="hero-title">UI/UX <span>designer</span></h1>
+    
+            <ul class="hero-socials">
+              <li><a href="https://www.instagram.com" target="_blank">IG</a></li>
+              <li><a href="https://www.linkedin.com" target="_blank">LK</a></li>
+              <li><a href="https://www.youtube.com" target="_blank">YT</a></li>
+              <li><a href="https://github.com" target="_blank">GH</a></li>
+            </ul>
+            <div class="hero-button">
+              <button type="button" class="hero-btn">Hire me</button>
+              <button type="button" class="hero-btn">Downlead CV</button>
+            </div>
+            <ul class="hero-mark">
+              <li>
+                <span class="mark-number">5+</span>
+                <span class="mark-text">Experiences</span>
+              </li>
+              <li>
+                <span class="mark-number">20+</span>
+                <span class="mark-text">Project done</span>
+              </li>
+              <li>
+                <span class="mark-number">80+</span>
+                <span class="mark-text">Happy Clients</span>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-image">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./img/hero/Man in black suit looking confident.png" />
+              <!-- <source media="(min-width: 768px)" srcset="
+                        ./img/about-me/portfolio-tablet.jpg   1x,
+                        ./img/about-me/portfolio-tablet-2.jpg 2x
+                      " />
+              <source media="(max-width: 767.98px)" srcset="
+                        ./img/about-me/portfolio-mob.jpg   1x,
+                        ./img/about-me/portfolio-mob-2.jpg 2x
+                      " /> -->
+              <img class="hero-img"
+                src="/vanilla-app-template/assets/Man%20in%20black%20suit%20looking%20confident-vgyRFxZn.png"
+                alt="Description of your image" width="520" height="781" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container services-container">
+          <h2 class="services-name">Services</h2>
+          <p class="services-title">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam
+          </p>
+    
+          <ul class="services-list">
+            <li class="services-card">
+              <div class="services-content">
+                <svg class="services-icon" width="70" height="70">
+                  <use href="../img/services/Combined-Shape.svg"></use>
+                </svg>
+                <h3 class="services-content-name">App Design</h3>
+                <p class="services-content-text">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                  consectetur</p>
+              </div>
+            </li>
+            <li class="services-card">
+              <div class="services-content">
+                <svg class="services-icon" width="70" height="70">
+                  <use href="../img/services/Combined-Shape.svg"></use>
+                </svg>
+                <h3 class="services-content-name">App Design</h3>
+                <p class="services-content-text">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                  consectetur</p>
+              </div>
+            </li>
+            <li class="services-card">
+              <div class="services-content">
+                <svg class="services-icon" width="70" height="70">
+                  <use href="../img/services/Combined-Shape.svg"></use>
+                </svg>
+                <h3 class="services-content-name">App Design</h3>
+                <p class="services-content-text">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                  consectetur</p>
+              </div>
+            </li>
+            <li class="services-card">
+              <div class="services-content">
+                <svg class="services-icon" width="70" height="70">
+                  <use href="../img/services/Combined-Shape.svg"></use>
+                </svg>
+                <h3 class="services-content-name">App Design</h3>
+                <p class="services-content-text">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                  consectetur</p>
+              </div>
+            </li>
+            <li class="services-card">
+              <div class="services-content">
+                <svg class="services-icon" width="70" height="70">
+                  <use href="../img/services/Combined-Shape.svg"></use>
+                </svg>
+                <h3 class="services-content-name">App Design</h3>
+                <p class="services-content-text">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                  consectetur</p>
+              </div>
+            </li>
+            <li class="services-card">
+              <div class="services-content">
+                <svg class="services-icon" width="70" height="70">
+                  <use href="../img/services/Combined-Shape.svg"></use>
+                </svg>
+                <h3 class="services-content-name">App Design</h3>
+                <p class="services-content-text">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                  consectetur</p>
+              </div>
+            </li>
+          </ul>
+    
+        </div>
+    
+    
+      </section>
+      <section class="about-me" id="about-me">
+        <div class="container services-container">
+          <h2 class="services-name">About Me</h2>
+          <p class="services-title">User Interface and User Experience and Also video editing</p>
+          <ul class="about-me-content">
+            <li class="about-me-part about-me-image">
+              <picture>
+                <!-- <source media="(min-width: 1440px)" srcset="
+                                    ./img/about-me/portfolio-desktop.jpg   1x,
+                                    ./img/about-me/portfolio-desktop-2.jpg 2x
+                                  " />
+                          <source media="(min-width: 768px)" srcset="
+                                    ./img/about-me/portfolio-tablet.jpg   1x,
+                                    ./img/about-me/portfolio-tablet-2.jpg 2x
+                                  " />
+                          <source media="(max-width: 767.98px)" srcset="
+                                    ./img/about-me/portfolio-mob.jpg   1x,
+                                    ./img/about-me/portfolio-mob-2.jpg 2x
+                                  " />
+                          <img class="about-me-img" src="./img/about-me/portfolio-mob.jpg" alt="Description of your image" width="343"
+                            height="500" /> -->
+              </picture>
+            </li>
+            <li class="about-me-part">
+              <div class="about-me-descrition">
+                <p class="about-me-text">A software engineer, the modern-day architect of digital realms, navigates the
+                  ethereal landscapes of code, sculpting
+                  intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso
+                  pianists,
+                  they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a
+                  screen, a vast
+                  expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications.
+                  Each keystroke
+                  is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this
+                  digital atelier,
+                  they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an
+                  ever-evolving quest for
+                  perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of
+                  code.
+                  designs.In this digital atelier.</p>
+                <button class="button">Downlead CV</button>
+              </div>
+            </li>
+          </ul>
+    
+          <ul class="about-me-list">
+            <li class="about-me-item">
+              <svg class="benefits-icon" width="24" height="24">
+                <!-- <use href="./img/icons.svg#icon-services-user"></use> -->
+              </svg>
+              <h3 class="benefits-title">100%</h3>
+              <p class="benefits-text">Figma</p>
+            </li>
+            <li class="about-me-item">
+              <svg class="benefits-icon" width="24" height="24">
+                <!-- <use href="./img/icons.svg#icon-services-user"></use> -->
+              </svg>
+              <h3 class="benefits-title">100%</h3>
+              <p class="benefits-text">Adobe XD</p>
+            </li>
+            <li class="about-me-item">
+              <svg class="benefits-icon" width="24" height="24">
+                <!-- <use href="./img/icons.svg#icon-services-user"></use> -->
+              </svg>
+              <h3 class="benefits-title">85%</h3>
+              <p class="benefits-text">Adobe Photoshop</p>
+            </li>
+            <li class="about-me-item">
+              <svg class="benefits-icon" width="24" height="24">
+                <!-- <use href="./img/icons.svg#icon-services-user"></use> -->
+              </svg>
+              <h3 class="benefits-title">60%</h3>
+              <p class="benefits-text">Adobe Illustrator</p>
+            </li>
+            <li class="about-me-item">
+              <svg class="benefits-icon" width="24" height="24">
+                <!-- <use href="./img/icons.svg#icon-services-user"></use> -->
+              </svg>
+              <h3 class="benefits-title">70%</h3>
+              <p class="benefits-text">Adobe Premiere</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container swiper-container">
+          <h2 class="portfolio-title">Projects</h2>
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Website Design</button>
+            <button class="filter-btn" data-filter="mobile">App Mobile Design</button>
+            <button class="filter-btn" data-filter="desktop">App Desktop</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+          </div>
+    
+          <ul class="portfolio-grid">
+            <li class="portfolio-card" data-category="web branding">
+              <img src="./images/project-1.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="mobile">
+              <img src="./images/project-2.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="desktop web">
+              <img src="./images/project-3.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="web branding">
+              <img src="./images/project-1.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="mobile">
+              <img src="./images/project-2.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="desktop web">
+              <img src="./images/project-3.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="web branding">
+              <img src="./images/project-1.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="mobile">
+              <img src="./images/project-2.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+    
+            <li class="portfolio-card" data-category="desktop web">
+              <img src="./images/project-3.jpg" alt="Project" />
+              <div class="card-info">
+                <span>Name Project</span>
+                <span>Categories</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+    
+      </section>
+      <section class="contact-me" id="contact-me">
+        <div class="container contact-me-container">
+          <h2 class="contact-title">Contact me</h2>
+          <p class="contact-text">Cultivating Connections: Reach Out and Connect with Me</p>
+    
+    
+          <form class="contact-form">
+            <div class="form-left">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" placeholder="Name" required />
+    
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="tel" name="phone" placeholder="Phone Number" required />
+    
+              <label for="timeline">Timeline</label>
+              <input id="timeline" type="text" name="timeline" placeholder="Timeline" required />
+            </div>
+    
+            <div class="form-right">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="Email" required />
+    
+              <label for="service">Service of Interest</label>
+              <input id="service" type="text" name="service" placeholder="Service of Interest" required />
+    
+              <label for="project">Project Details</label>
+              <textarea id="project" name="project" placeholder="Project Details..." required></textarea>
+    
+              <button type="submit" class="send-btn">Send</button>
+            </div>
+          </form>
+    
+        </div>
+      </section>
+    </main>
+    
+    <!-- Футер -->
+    <section class="footer">
+      <div class="container footer-container">
+        <svg class="header-burger-icon" width="28" height="28">
+          <use href="./img/icons.svg#icon-menu"></use>
+        </svg>
+    
+        <ul class="footer-active">
+          <li class="footer-active-link">Home</li>
+          <li class="footer-active-link">Services</li>
+          <li class="footer-active-link">About me</li>
+          <li class="footer-active-link">Portfolio</li>
+          <li class="footer-active-link">Contact me</li>
+        </ul>
+        <ul class="footer-socials">
+          <li><a href="https://www.instagram.com" target="_blank">IG</a></li>
+          <li><a href="https://www.linkedin.com" target="_blank">LK</a></li>
+          <li><a href="https://www.youtube.com" target="_blank">YT</a></li>
+          <li><a href="https://github.com" target="_blank">GH</a></li>
+        </ul>
+        <div class="footer-contacts">
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-item">
+              <a class="footer-contacts-link" href="mailto:Mahmood.fazile7005@gmail.com"
+                rel="noopener noreferrer">Mahmood.fazile7005@gmail.com
+              </a>
+            </li>
+            <li class="footer-contacts-item">
+              <a class="footer-contacts-link" href="tel:+93 729 107 005" rel="noopener noreferrer">+93 729 107 005</a>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="footer-line"></div>
+        <p class="footer-text">
+          Designed by <span class="footer-name">@mahmood.fazile</span> UI/UX designer
+        </p>
+      </div>    
+    </section>
+
+    <div id="app"></div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

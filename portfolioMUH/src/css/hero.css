@@ -1,0 +1,117 @@
+.hero {}
+
+.container {}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 51px;
+
+}
+
+.hero-description {
+    /* display: block; */
+}
+
+.hero-info {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #707070;
+    font-family: "Lato", sans-serif;
+}
+
+.hero-title-name {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    color: #959595;
+    font-family: "Lato", sans-serif;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing: 0.03em;
+    background: linear-gradient(110deg, #984300 0%, #fd6f00 46.35%, #ca5900 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lato", sans-serif;
+}
+
+.hero-socials {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    padding: 16px 0px 0px;
+    width: 220px;
+    height: 56px;
+}
+
+.hero-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 389px;
+    height: 48px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 156px;
+    height: 48px;
+    background: linear-gradient(129deg, #fd6f00 0%, #e46400 100%);
+
+}
+
+/* .button {} */
+
+.hero-mark {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 30px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 534px;
+    height: 125px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.mark-number {
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: #fd6f00;
+    font-family: "Lato", sans-serif;
+}
+
+.mark-text {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: #dfdfdf;
+    font-family: "Lato", sans-serif;
+}
+
+.hero-image {
+    border-radius: 244px;
+    width: 520px;
+    height: 781px;
+}
